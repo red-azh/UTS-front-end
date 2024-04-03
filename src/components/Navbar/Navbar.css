@@ -1,0 +1,33 @@
+/** @format */
+
+.navbar {
+	background-image: linear-gradient(
+		to right,
+		rgb(23, 27, 32),
+		rgb(120, 25, 230)
+	);
+	padding: 5px;
+}
+.navbar ul li {
+	list-style: none;
+	text-align: center;
+	line-height: 1.5rem;
+	font-weight: bold;
+	font-size: large;
+	text-decoration: none;
+	text-decoration-line: none;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+}
+/* large screen */
+@media (min-width: 758px) {
+	.navbar ul {
+		display: flex;
+		align-items: center;
+	}
+	.navbar ul li {
+		padding-right: 10px;
+	}
+}
